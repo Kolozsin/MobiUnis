@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobiUni</string>
+    <string name="Login_Login_button">Belépés</string>
+    <string name="Login_Register_button">Regisztráció</string>
+    <string name="Back_button">Vissza</string>
+    <string name="Username">Felhasználónév:</string>
+    <string name="Password">Jelszó:</string>
+
+</resources>

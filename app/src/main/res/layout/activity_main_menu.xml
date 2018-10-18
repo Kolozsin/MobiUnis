@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:orientation="vertical"
+    >
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+      android:name="kono.mobiuni.View.SearchFragment"
+        android:id="@+id/topSearchBar"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:id="@+id/listerfragment"
+        android:name="kono.mobiuni.View.LessonLister"
+        />
+
+    <fragment
+        android:name="kono.mobiuni.View.ButtomActionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/botBar"/>
+
+
+
+
+</LinearLayout>

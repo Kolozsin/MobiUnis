@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MobiUni</string>
+    <string name="Login_Register_button">Registration</string>
+    <string name="Login_Login_button">Log In</string>
+    <string name="Back_button">Back</string>
+    <string name="Username">Username:</string>
+    <string name="Password">Password:</string>
+
+
+</resources>
