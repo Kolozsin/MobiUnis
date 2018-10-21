@@ -24,7 +24,7 @@
         />
 
     <fragment
-        android:name="kono.mobiuni.View.ButtomActionFragment"
+        android:name="kono.mobiuni.View.BottomActionFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"

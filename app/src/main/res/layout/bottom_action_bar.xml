@@ -9,24 +9,27 @@
     android:paddingTop="2dp">
 
     <Button
+        android:textColor="@color/black"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/Button0"
         android:background="@color/colorPrimaryDark"
-        android:text="PlaceHolder"/>
+        android:text="@string/Categories"/>
     <Button
+        android:textColor="@color/black"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/Button1"
         android:background="@color/colorPrimaryDark"
-        android:text="PlaceHolder"/>
+        android:text="@string/MainMenu"/>
     <Button
+        android:textColor="@color/black"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/Button2"
         android:background="@color/colorPrimaryDark"
-        android:text="PlaceHolder"/>
+        android:text="@string/Profile"/>
 </LinearLayout>

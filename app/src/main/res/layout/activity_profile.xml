@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/greyblue">
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content" android:layout_height="0dp"
+        android:text="@string/Username"
+        android:textSize="20dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/profile_username"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/Average"
+        android:textSize="20dp"
+        android:layout_weight="1"/>
+
+    <TextView
+
+        android:id="@+id/profile_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:background="@color/colorAccent"
+        android:textColor="@color/black"
+        android:id="@+id/Profile_Logout_button"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/LogoutButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/Profile_YourLessons"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/listView"
+        android:name="kono.mobiuni.View.LessonLister"/>
+    <fragment
+        android:id="@+id/botBar"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:name="kono.mobiuni.View.BottomActionFragment" />
+
+</LinearLayout>

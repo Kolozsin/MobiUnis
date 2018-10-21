@@ -6,5 +6,12 @@
     <string name="Back_button">Vissza</string>
     <string name="Username">Felhasználónév:</string>
     <string name="Password">Jelszó:</string>
+    <string name="Average">Átlag:</string>
+    <string name="LogoutButton">Kijelentkezés</string>
+    <string name="Profile">Profil</string>
+    <string name="MainMenu">Főmenü</string>
+    <string name="Categories">Kategóriák</string>
+    <string name="Message_LogoutSuccesfull">Sikeresen kijelentkezett</string>
+    <string name="Profile_YourLessons">Itt láthatod a saját tananyagaidat:</string>
 
 </resources>

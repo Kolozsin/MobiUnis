@@ -5,6 +5,13 @@
     <string name="Back_button">Back</string>
     <string name="Username">Username:</string>
     <string name="Password">Password:</string>
+    <string name="Average">Average:</string>
+    <string name="LogoutButton">Logout</string>
+    <string name="Profile">Profile</string>
+    <string name="MainMenu">Main Menu</string>
+    <string name="Categories">Categories</string>
+    <string name="Message_LogoutSuccesfull">Logout Succeeded</string>
+    <string name="Profile_YourLessons">Here are the lessons you made:</string>
 
 
 </resources>
